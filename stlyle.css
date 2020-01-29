@@ -1,4 +1,40 @@
-.container{
-    width: 780px;
-    background-color: beige;
+header{
+    background-color: teal;
+    color: white;
+    padding: 30px 0 30px 0;
+
+    
+    
 }
+.container3{
+    border: yellow;
+    margin-left: 150px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container2{
+    width: 1000px;
+    margin: 20px auto 20px 140px ;
+    text-align: left
+}
+    
+.navbar{
+    float: right;
+}
+.navitems{
+    margin: 0;
+    margin-bottom: 10px;
+    list-style: none;
+}
+ nav li{
+     display: inline-block;
+     padding-top: -30px;
+ } 
+
+ nav a{
+     color: white;
+ }
