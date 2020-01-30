@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="stlyle.css">
 </head>
 <body>
+
     <header>
   <div class="container">
   <strong>Hiram Goodridge</strong>
@@ -27,7 +28,8 @@
     </nav>
   </div>
 </header>
-
+<!-- In the section below I'm having difficulties trying to seperate the boxes
+ i tried different variations of "mb-1" but all that did was shift the pictures to the left for some reason -->
 <div class="container2">
     <div class="row">
         <div class="col-md-12">
@@ -39,21 +41,33 @@
 </div>
 <div class="container">
     <div class="row">
-      <div class="col-6 col-sm-4">place1</div>
-      <img src="https://via.placeholder.com/150" alt="150 place holder" class="place1">
-      <div class="col-6 col-sm-4">place2</div>
-      <img src="https://via.placeholder.com/150" alt="" class="place2">
-  
-      <!-- Force next columns to break to new line at md breakpoint and up -->
-      <div class="w-100 d-none d-md-block"></div>
-  
-      <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
-      <img src="https://via.placeholder.com/150" alt="place holder" class="place3">
-      
-      <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
-      <img src="https://via.placeholder.com/150" alt="place holder" class="place4">
+        <div class="col-6-mb-1">
+            <img src="https://via.placeholder.com/150" alt="placehold">
+        </div>
+        <div class="col-6">
+            <img src="https://via.placeholder.com/150" alt="placehold">
+        </div>
+
+        
+
     </div>
-  </div>
+    <div class="row">
+        <div class="col-6-mb-1">
+            <img src="https://via.placeholder.com/150" alt="placehold">
+        </div>
+        
+        <div class="col-6">
+            <img src="https://via.placeholder.com/150" alt="placehold">
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-6-mb-1">
+            <img src="https://via.placeholder.com/150" alt="placehold">
+        </div>
+
+</div>
+    
     
 </body>
 </html>

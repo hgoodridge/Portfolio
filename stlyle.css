@@ -1,3 +1,6 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/733833.jpg);
+}
 header{
     background-color: teal;
     color: white;
@@ -36,5 +39,16 @@ header{
  } 
 
  nav a{
+     color: white;
+ }
+
+ .form-group{
+     margin-left:40px;
+ }
+
+ footer{
+     text-align: center;
+     margin-top: 250px;
+     background-color: teal;
      color: white;
  }
