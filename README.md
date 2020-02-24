@@ -1,1 +1,1 @@
-This is a profolio that features a responsive layout.
+This is a portfolio that features a responsive layout at the break points of 640px,760px,and 960px.
