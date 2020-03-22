@@ -72,7 +72,7 @@ width: 19%;
 .title-box{
     background-color: teal;
     color: white;
-    padding: 10%;
+    padding:4%;
     text-align: center;
     position: absolute;
     bottom: 17px;
@@ -86,7 +86,12 @@ width: 19%;
          width: 92%;
         
     }
-}
+    .name{
+        flex: 0 0 20%
+    }
+    .test{
+        flex: 0 0 20%
+    }}
 @media(min-width:960px){
     
     .title-box{ 
